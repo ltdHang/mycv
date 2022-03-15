@@ -22,6 +22,27 @@ function Infor({ data }) {
         </div>
       ))}
 
+
+      <div className="work">
+        <h2>
+          <span>Kinh Nghiệm</span>
+        </h2>
+        {data.work.map((e) => (
+          <div key={e}>
+
+            <h4 className="company working-time">{`${e.company} (${e.time})`}</h4>
+
+            {e.task.map((e) => (
+              <div key={e} className="task">
+                {/* <p>{e}</p> */}
+                <p dangerouslySetInnerHTML={{ __html: `${e}` }} />
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+
+
       <ListComponent data={data.skill} />
 
       <div className="content-skill">
@@ -44,22 +65,6 @@ function Infor({ data }) {
           }
         })}
       </div>
-
-      {data.work.map((e) => (
-        <div key={e} className="work">
-          <h2>
-            <span>Kinh Nghiệm</span>
-          </h2>
-          <p className="company working-time">{`${e.company} (${e.time})`}</p>
-
-          {e.task.map((e) => (
-            <div key={e} className="task">
-              <p>{e}</p>
-            </div>
-          ))}
-        </div>
-      ))}
-
       <div className="ceritficate">
         <h2>
           <span>Chứng Chỉ</span>

@@ -6,14 +6,14 @@
 .listComponent__list{
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: flex-start; */
+
 }
 .listComponent__list{
   display: flex;
   min-height: 10rem;
   text-align: center;
   align-items: center;
-  flex: 0 0 33.333333%;
+  flex: 0 0 50%;
 }
 
 .listComponent__list  i:before{
@@ -28,7 +28,7 @@
 .listComponent__list .css {color: #1391f8 }
 .listComponent__list .js {color: #cfc208 }
 .listComponent__list .express {color: #e01010 }
-.listComponent__list .nodejs {color: #10e091 }
+.listComponent__list .excel {color: #0d5306 }
 .listComponent__list .sql {color: #2471be }
 .listComponent__list .nextjs {color: #2471be }
 .listComponent__list .redux {color: #b11ff5 }
