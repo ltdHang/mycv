@@ -2,18 +2,18 @@ const data = {
   about: {
     name: 'Lê Thị Diệu Hằng',
     dayOfBirth: '13/08/1998',
-    description: 'Giới thiệu về bản thân',
+    description: '',
     tdtu_icon: './img/about/ueh_icon.jpg',
     github: 'https://github.com/ltdHang',
     avatar:'./img/about/avatar.png',
     age:24,
-    email: 'Lethidieuhang1308@gmail.com',
+    email: 'lethidieuhang1308@gmail.com',
     phone: '0326 976 777',
     location: 'TP HCM',
     education: [ {school: 'Đại Học Kinh Tế TP. HCM', time: '2016 - 2020', gpa: 'GPA: 8.05/10',major: 'Kinh Doanh Thương Mại'}, ],
     ceritficate: ['2020 : Chứng chỉ nghiệp vụ khai báo Hải quan', 
                   '2019 : Chứng chỉ xuất nhập khẩu - Lê Ánh',
-                  '2010 : Toeic'],
+                  '2020 : Toeic'],
     work: [ {company: 'NPV EXPRESS & LOGISTIC CO., LTD', time: '10/2019 - Hiện tại', 
             task :[ 
                     '<b>Nhân viên chứng từ khai báo Hải quan</b>',
@@ -44,12 +44,12 @@ const data = {
     love: 'du lịch!',
     skill: [
       {title: 'Tin Học Văn Phòng' , icon:''},
-      {key:'Excel' , value: 'Pivot table, VBA cơ bản',icon:'<i class="fas fa-file-excel excel"></i>'},
-      {key:'SQL' , value: 'Query , CRUD cơ bản',icon:'<i class="fas fa-database sql" ></i>'},
-      {key:'Microsoft Office' , value: 'Word, Powerpoint sử dụng thành thạo ',icon:'<i class="fab fa-microsoft microsoft" ></i>'},
-      {key:'Adobe' , value: 'Adobe Acrobat Reader sử dụng thành thạo',icon:'<i class="fab fa-microsoft microsoft" ></i>'},
-      {key:'Tiếng Anh' , value: 'Có khả năng đọc và hiểu tài liệu tiếng Anh',icon:''},
-      {key:'Kỹ Năng Mềm' , value: 'Giải quyết vấn đề, làm việc nhóm, khả năng trình bày, chịu áp lực tốt ...',icon:''},
+      {key:'Excel' , value: 'Pivot table, VBA cơ bản',icon:'<i class="fas fa-file-excel excel"></i>',show:'yes'},
+      {key:'SQL' , value: 'Query , CRUD cơ bản',icon:'<i class="fas fa-database sql" ></i>',show:'yes'},
+      {key:'Adobe' , value: 'Adobe Acrobat Reader sử dụng thành thạo',icon:'<i class="fab fa-adobe adobe" ></i>'},
+      {key:'Tiếng Anh' , value: 'Khả năng đọc viết tốt, giao tiếp khá',icon:'',show:'yes'},
+      {key:'Microsoft Office' , value: 'Word, Powerpoint sử dụng thành thạo ',icon:'<i class="fab fa-microsoft microsoft" ></i>',show:'yes'},
+      {key:'Kỹ Năng Mềm' , value: 'Giải quyết vấn đề, làm việc nhóm, khả năng trình bày, chịu áp lực tốt ...',icon:'',show:'yes'},
   ],
   objective:[
     {key:'Ngắn Hạn', value: [
@@ -61,27 +61,27 @@ const data = {
 
   objectiveSkill: [
       {title: 'Muốn Học Trong Năm 2022' , icon:''},
-      {key:'NextJS' , value: 'Framework của React',icon:'<i class="fa-solid fa-n nextjs"></i>'},
-      {key:'React Native' , value: 'Framework của React',icon:'<i class="fab fa-react react"></i>'},
-      {key:'React Redux' , value: 'Library của React',icon:'<i class="fas fa-check-double redux"></i>'},
-      {key:'SCSS, SASS' , value: 'Chương trình tiền xử lý CSS (CSS preprocessor).',icon:'<i class="fab fa-sass scss" ></i>'},
-      {key:'MongoDB' , value: 'Quản lý Database',icon:'<i class="fas fa-database mongodb" ></i>'},
-      {key:'Figma' , value: 'Thiết kế UI web',icon:'<i class="fa-brands fa-figma figma"></i>'},
+      {key:'Nâng cao nghiệp vụ xuất nhập khẩu' , value: 'Framework của React',icon:'<i class="fa-solid fa-ship boat"></i>'},
+      {key:'Tiếng Anh: Cải thiện giao tiếp' , value: 'Framework của React',icon:'<i class="fa-solid fa-book book"></i>'},
+      {key:'SQL: Sử dụng thành thạo' , value: 'Sử dụng thành thạo',icon:'<i class="fa-solid fa-database sql"></i>'},
+      {key:'Power Bi: Sử dụng thành thạo' , value: '.',icon:'<i class="fa-solid fa-chart-line power-bi"></i>'},
   ],
 
   project :[
 
-    {title: '30 Days Practice' , show:true , 
+    {title: 'Bằng Cấp Và Chứng Chỉ' , show:true , 
     link:'null',
-    listImage:['./img/about/day1.png'
-              ,'./img/about/day2.png'
-              ,'./img/about/day3.png'
-              ,'./img/about/day4.png'
-              ,'./img/about/day5.png'
-              ,'./img/about/day6.png'
-              ,'./img/about/day7.png'
-              ,'./img/about/day8.png',],
-    leftDescription: ['Tạo HTML CSS từ design' ,'Responsive cho cả mobile và tablet',], 
+    listImage:['./img/about/1.png'
+              ,'./img/about/2.png'
+              ,'./img/about/3.png'
+              ,'./img/about/4.png'],
+
+
+              // listImage:[{key: './img/about/1.png', value: 'Bằng Cử Nhân Đại Học Kinh Tế HCM'},
+              // {key: './img/about/2.png', value: 'Chứng chỉ tin học quốc tế IC3 '},
+              // {key: './img/about/3.png', value: 'Chứng chỉ xuất nhập khẩu thực tế - Trung Tâm Lê Ánh'},
+              // {key: './img/about/4.png', value: 'Chứng tử nghiệp vụ khai báo hải quan điện tử '},],
+    descriptionListImage: ['Tạo HTML CSS từ design' ,'Responsive cho cả mobile và tablet',], 
     rightDescription: ['Style: CSS','Library ReactJS' ,'React Router V6' , 'Xử lý logics: JS, Hooks']}, 
 
     {title: 'TheBand - HTML/CSS' , show:true , 

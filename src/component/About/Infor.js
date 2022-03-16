@@ -4,7 +4,7 @@ function Infor({ data }) {
   return (
     <>
       {data.education.map((e) => (
-        <div key={e} className="education">
+        <div key={e.index} className="education">
           <h2 className="education__title">
             <span>Học Vấn</span>
           </h2>
@@ -34,7 +34,6 @@ function Infor({ data }) {
 
             {e.task.map((e) => (
               <div key={e} className="task">
-                {/* <p>{e}</p> */}
                 <p dangerouslySetInnerHTML={{ __html: `${e}` }} />
               </div>
             ))}
@@ -50,7 +49,7 @@ function Infor({ data }) {
           <span>Kĩ Năng</span>
         </h2>
         {data.skill.map((e) => {
-          if (e.icon == "") {
+          if (e.show !== 'yes') {
             return;
           } else {
             return (

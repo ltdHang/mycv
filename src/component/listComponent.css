@@ -24,14 +24,14 @@
 }
 
 .listComponent__list .react {color: #9fcadf }
-.listComponent__list .html {color: #f87a13 }
-.listComponent__list .css {color: #1391f8 }
-.listComponent__list .js {color: #cfc208 }
+.listComponent__list .html , .boat {color: #f87a13 }
+.listComponent__list .css , .book {color: #1391f8 }
+.listComponent__list .js , .power-bi {color: #cfc208 }
 .listComponent__list .express {color: #e01010 }
 .listComponent__list .excel {color: #0d5306 }
 .listComponent__list .sql {color: #2471be }
 .listComponent__list .nextjs {color: #2471be }
-.listComponent__list .redux {color: #b11ff5 }
+.listComponent__list .redux ,.adobe{color: #b11ff5 }
 .listComponent__list .mongodb {color: #3ff308 }
 .listComponent__list .figma {color: #1abcfd }
 .listComponent__list .sql {color: #2471be }

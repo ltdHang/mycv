@@ -1,16 +1,14 @@
 import "./index.css";
 import "../../assets/css/grid.css";
 import data from "../data";
-// import Infor from "../../component/About/Infor.js";
 import Infor from "../../component/About/Infor";
 import Objective from "../../component/About/Objective";
 import Project from "../../component/About/Project";
 
-import { useState, useEffect } from "react";
+import { useState,  } from "react";
 
 function About() {
   const about = data.about;
-  const skill = data.about.skill;
   console.log("Aboute re-render");
 
   const [infor, setInfor] = useState(true);
@@ -90,13 +88,16 @@ function About() {
               <div className="education" onClick={handleShowInfor}>
                 <i className="fas fa-address-card"></i><span>SƠ LƯỢC VỀ BẢN THÂN</span> 
               </div>
-              <div className="project" onClick={handleShowProJect}>
-                <i className="fas fa-user-check"></i><span>DỰ ÁN CÁ NHÂN</span> 
-              </div>
+
               <div className="objective" onClick={handleShowObjective}>
                 
                 <i className="fas fa-layer-group"></i><span>ĐỊNH HƯỚNG PHÁT TRIỂN</span> 
               </div>
+
+              <div className="project" onClick={handleShowProJect}>
+                <i className="fas fa-user-check"></i><span>BẰNG CẤP - CHỨNG CHỈ</span> 
+              </div>
+              
             </div>
           
             <div className="body-content__right">
