@@ -157,7 +157,6 @@
     .work , .education {
         width: 100%; 
         /* border-bottom: 0.3rem solid #000;  */
-        line-height: 0.1em;
         margin: 1rem 0 2rem; 
       }
       .work span , .education span{ 

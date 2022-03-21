@@ -84,7 +84,6 @@
  .content-skill > h2 , .ceritficate >h2 , .work >h2 , .education__title{
   width: 100%; 
   border-bottom: 0.1rem solid #ccc;
-  line-height: 0.1em;
   margin: 1rem 0 2rem; 
   color: #087bec;
 }

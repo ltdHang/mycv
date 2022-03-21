@@ -28,7 +28,7 @@ const data = {
                     '- Lên kế hoạch đóng hàng xuất khẩu, giao hàng, lấy hàng tại sân bay,...',
                     '- Sắp xếp phương tiện vận tải chở hàng ra cảng và ngược lại.',
                    ]}, 
-            {company: 'CB27 Engineering Co., Ltd', time: '6/2019 - 10/2021 ', 
+            {company: 'CB27 Engineering Co., Ltd', time: '6/2019 - 10/2019 ', 
               task :[ 
                 'Thực tập sinh xuất nhập khẩu',
                      '<b>Nhiệm Vụ Chính :</b>',
