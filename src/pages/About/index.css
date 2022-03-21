@@ -150,6 +150,9 @@
     .contact > *{
         flex: 0 0 100%!important;
     }
+    .head-content{
+        margin-left: 1rem;
+    }
 }
 
 /* Tablet - PC low resolution width: 644px; */
