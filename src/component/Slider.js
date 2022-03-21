@@ -35,11 +35,7 @@ function Slider( {data} ) {
                 <div className="project-slideShow__btnLeft"><i className="fa-solid fa-less-than"></i></div> 
                 <div className="project-slideShow__btnRight"><i className="fa-solid fa-greater-than"></i></div> 
           </div>
-          <div className="project__description">
-              <div  className="project-description-left">
-                <h3>Mô Tả:</h3>
-              </div>
-          </div>
+
           </div>
   )}
 export default memo(Slider)
