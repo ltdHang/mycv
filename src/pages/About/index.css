@@ -132,15 +132,24 @@
 
 @media (min-width: 1024px) {
     .contact{
+        display: flex;
     }
-
+    
     .contact > *{
-        flex: 0 0 50%;
+        flex: 0 0 50%!important;
     }
 }
 /* >= Tablet */
+
+
 @media (min-width: 740px) and (max-width: 1023px) {
- 
+    .contact{
+        display: flex;
+    }
+    
+    .contact > *{
+        flex: 0 0 100%!important;
+    }
 }
 
 /* Tablet - PC low resolution width: 644px; */
@@ -175,6 +184,10 @@
     }
     .skill__value span {
         display: none;
+    }
+        
+    .contact > *{
+        flex: 0 0 100%!important;
     }
 }
 
